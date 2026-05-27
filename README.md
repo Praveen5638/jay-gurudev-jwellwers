@@ -18,9 +18,7 @@ This is the official web showcase and inventory management portal for **Jay Guru
 * **Entrance Micro-Animations**: Utilizes React dynamic key bindings to re-trigger smooth `.fade-in-up` entry animations for titles, badges, and CTA buttons on every slide transition.
 
 ### 2. 🔒 Secure Catalog Administrator Dashboard
-* **Predefined Gated Access**: A high-contrast, secure login screen protects the catalog from unauthorized inventory changes:
-  * **Username**: `admin`
-  * **Password**: `gurudev@1995` *(Symbolizes 1995, the prestigious year of establishment in Devghat, Prayagraj)*
+* **Predefined Gated Access**: A high-contrast, secure login screen protects the catalog from unauthorized inventory changes. Authorized showroom owners can configure and access the management panel using pre-configured credentials.
 * **Persistent Session Management**: Employs `sessionStorage` to maintain auth state across reload tabs, prompting for credentials only on new browser sessions or when manually clicking the **Logout** button.
 * **Dashboard Utilities**:
   * **Showroom Statistics**: Real-time stats count of total jewelry listings, metal categories (Gold, Silver, Diamond), and active client orders.
