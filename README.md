@@ -1,73 +1,91 @@
-# React + TypeScript + Vite
+# 👑 Jay Gurudev Jewellers (जय गुरुदेव ज्वेलर्स) 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **प्रयागराज का प्रतिष्ठित स्वर्ण घराना — शुद्धता, सौंदर्य और अटूट विश्वास का ३० वर्षों का राजसी संगम।**
 
-Currently, two official plugins are available:
+जय गुरुदेव ज्वेलर्स की आधिकारिक वेबसाइट कैटलॉग एवं शोरूम प्रबंधन प्रणाली। यह डिजिटल शोरूम ग्राहकों को सोने, चांदी और हीरे के शाही आभूषणों की विस्तृत श्रृंखला प्रदर्शित करता है तथा शोरूम प्रबंधन के लिए एक सुरक्षित एडमिन डैशबोर्ड प्रदान करता है।
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ मुख्य राजसी विशेषताएं (Key Features)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. 🎭 ऑटो-प्लेइंग लक्ज़री हीरो स्लाइडर (Luxury Hero Slider)
+* **शाही प्रदर्शन**: मुख्य पृष्ठ पर ४ भव्य स्लाइड इमेजेस के साथ एक ऑटो-प्लेइंग स्लाइडर जो ब्रांड की पहचान को राजसी बनाता है।
+* **इमेज एसेट्स**: वेबसाइट में वास्तविक आभूषणों की उच्च-गुणवत्ता (AI Generated) वाली कलाकृतियां शामिल हैं:
+  * **शाही विवाह संकलन (Bridal Collection)**
+  * **२२ कैरेट स्वर्ण विरासत (Antique Temple Gold)**
+  * **सुरुचिपूर्ण हीरा संकलन (Modern Solitaire Diamonds)**
+  * **९२.५ स्टर्लिंग चांदी (Traditional Silver Kada & Anklets)**
+* **इंटरएक्टिव**: माउस होवर करने पर स्लाइडर स्वतः रुक जाता है (pause-on-hover) और हटाने पर पुनः शुरू हो जाता है। साथ ही सुंदर डॉट इंडिकेटर्स और एरो कीज दी गई हैं।
+* **एनिमेशन**: प्रत्येक स्लाइड बदलने पर टेक्स्ट और बटन्स पर `.fade-in-up` जैसी बारीक माइक्रो-एनिमेशन चलती हैं।
 
-## Expanding the ESLint configuration
+### 2. 🔒 सुरक्षित संचालक डैशबोर्ड (Secure Admin Panel)
+* **गेटेड एक्सेस**: कैटलॉग सुरक्षा के लिए एक सुरुचिपूर्ण लॉग-इन प्रणाली। केवल अधिकृत स्वामी ही आभूषणों की सूची और बैनर बदल सकते हैं।
+* **पूर्वनिर्धारित क्रेडेंशियल (Predefined Credentials)**:
+  * **यूजरनेम (Username)**: `admin`
+  * **पासवर्ड (Password)**: `gurudev@1995` *(प्रयागराज में शोरूम के स्थापना वर्ष १९९५ का प्रतीक)*
+* **संचालक सुविधाएं**:
+  * **सांख्यिकी विवरण**: कुल आभूषणों की संख्या, श्रेणी-वार काउंट (Gold, Silver, Diamond) और ग्राहक पूछताछ की स्थिति।
+  * **आभूषण प्रबंधन (CRUD)**: आभूषणों को जोड़ना, विवरण संपादित करना, फोटो लिंक अपडेट करना और सूची से हटाना।
+  * **घोषणा बैनर सेटिंग्स**: पूरी वेबसाइट के शीर्ष पर प्रदर्शित होने वाले वैश्विक बैनर (उदा. शादी सीजन विशेष छूट) को लाइव अपडेट या निष्क्रिय करना।
+  * **ग्राहक पूछताछ (Inquiries)**: ग्राहकों द्वारा भेजे गए ऑर्डर संदेशों की सूची, जहां से एक क्लिक में सीधे कॉल या व्हाट्सएप रिप्लाई किया जा सकता है।
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 3. 🔍 बुलेटप्रूफ उत्पाद फ़िल्टर (Intelligent Filters)
+* **त्रुटि-रहित फ़िल्टर**: श्रेणी (Category), धातु (Material) और खोज (Search) फ़िल्टर को अत्यधिक मजबूत बनाया गया है।
+* **केस-इंसेंसिटिव**: उपयोगकर्ता छोटे-बड़े किसी भी अक्षर में खोजें, फ़िल्टर सुचारू रूप से काम करेगा।
+* **स्पेस ट्रिमिंग**: आभूषण जोड़ते समय यदि असावधानी से कोई एक्स्ट्रा स्पेस छूट जाए, तो भी फ़िल्टर `.trim().toLowerCase()` की मदद से इसे बिल्कुल सही पहचानता है।
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 4. 📐 पूर्ण रूप से रेस्पॉन्सिव डिज़ाइन (100% Mobile & Laptop Responsive)
+* **नो ओवरलैप (Overlap Fixed)**: वेबसाइट हेडर को `sticky` बनाया गया है जिससे पेज का मुख्य कंटेंट हेडर के पीछे नहीं छिपता।
+* **लैपटॉप स्क्रीन अनुकूलन**: पूरे हीरो स्लाइडर और टेक्स्ट की साइज को १५ इंच और १३ इंच के लैपटॉप स्क्रीन्स के अनुसार व्यवस्थित किया गया है ताकि बिना स्क्रॉल किए पूरी स्क्रीन पर स्लाइडर भव्य रूप से दिखाई दे।
+* **स्मार्ट मोबाइल नेविगेशन**: मोबाइल मेनू का आकार और ड्रॉवर पोजीशन स्वतः हेडर की चौड़ाई और ऊंचाई के अनुकूल हो जाती है।
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ तकनीकी स्टैक (Technology Stack)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+* **कोर फ्रेमवर्क**: [React 19](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+* **बिल्ड टूल**: [Vite 8](https://vite.dev/) (अत्यधिक तीव्र)
+* **स्टाइलिंग (Styling)**: [Tailwind CSS v4](https://tailwindcss.com/)
+* **आइकॉन्स**: [Lucide React](https://lucide.dev/)
+* **रूटिंग**: [React Router DOM v7](https://reactrouter.com/) (रूटिंग में 404 त्रुटि से बचने के लिए `HashRouter` का प्रयोग)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 💻 स्थानीय विकास गाइड (Local Development Setup)
+
+### आवश्यकताएं:
+* आपके कंप्यूटर में [Node.js](https://nodejs.org/) इंस्टॉल होना चाहिए।
+
+### कदम:
+
+1. **निर्भरताएं इंस्टॉल करें**:
+   ```bash
+   npm install
+   ```
+
+2. **डेवलपमेंट सर्वर शुरू करें**:
+   ```bash
+   npm run dev
+   ```
+   * आपका स्थानीय सर्वर `http://localhost:5173` पर लाइव हो जाएगा।
+
+3. **उत्पादन हेतु कंपाइल करें (Build for Production)**:
+   ```bash
+   npm run build
+   ```
+   * यह आपके प्रोजेक्ट का संकलित कोड `dist/` फोल्डर में जनरेट करेगा।
+
+4. **कोड क्वालिटी चेक करें (Linter)**:
+   ```bash
+   npm run lint
+   ```
+
+---
+
+## 🚀 नेटलिफ़ाई डिप्लॉयमेंट (Netlify Deployment)
+
+यह वेबसाइट **Netlify Static Hosting** पर डिप्लॉय होने के लिए 100% तैयार है।
+
+### ड्रैग एंड ड्रॉप विधि (सकेंड्स में लाइव):
+1. `npm run build` कमांड चलाएं।
+2. बने हुए **`dist`** फोल्डर को सीधे [netlify.com/drop](https://app.netlify.com/drop) पर ड्रैग और ड्रॉप करें। आपकी वेबसाइट लाइव हो जाएगी!
