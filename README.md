@@ -1,91 +1,98 @@
-# 👑 Jay Gurudev Jewellers (जय गुरुदेव ज्वेलर्स) 
+# 👑 Jay Gurudev Jewellers
 
-> **प्रयागराज का प्रतिष्ठित स्वर्ण घराना — शुद्धता, सौंदर्य और अटूट विश्वास का ३० वर्षों का राजसी संगम।**
+> **The Prestigious House of Gold in Prayagraj — A Royal Symphony of Purity, Artistry, and Trust for Over 3 Decades.**
 
-जय गुरुदेव ज्वेलर्स की आधिकारिक वेबसाइट कैटलॉग एवं शोरूम प्रबंधन प्रणाली। यह डिजिटल शोरूम ग्राहकों को सोने, चांदी और हीरे के शाही आभूषणों की विस्तृत श्रृंखला प्रदर्शित करता है तथा शोरूम प्रबंधन के लिए एक सुरक्षित एडमिन डैशबोर्ड प्रदान करता है।
-
----
-
-## ✨ मुख्य राजसी विशेषताएं (Key Features)
-
-### 1. 🎭 ऑटो-प्लेइंग लक्ज़री हीरो स्लाइडर (Luxury Hero Slider)
-* **शाही प्रदर्शन**: मुख्य पृष्ठ पर ४ भव्य स्लाइड इमेजेस के साथ एक ऑटो-प्लेइंग स्लाइडर जो ब्रांड की पहचान को राजसी बनाता है।
-* **इमेज एसेट्स**: वेबसाइट में वास्तविक आभूषणों की उच्च-गुणवत्ता (AI Generated) वाली कलाकृतियां शामिल हैं:
-  * **शाही विवाह संकलन (Bridal Collection)**
-  * **२२ कैरेट स्वर्ण विरासत (Antique Temple Gold)**
-  * **सुरुचिपूर्ण हीरा संकलन (Modern Solitaire Diamonds)**
-  * **९२.५ स्टर्लिंग चांदी (Traditional Silver Kada & Anklets)**
-* **इंटरएक्टिव**: माउस होवर करने पर स्लाइडर स्वतः रुक जाता है (pause-on-hover) और हटाने पर पुनः शुरू हो जाता है। साथ ही सुंदर डॉट इंडिकेटर्स और एरो कीज दी गई हैं।
-* **एनिमेशन**: प्रत्येक स्लाइड बदलने पर टेक्स्ट और बटन्स पर `.fade-in-up` जैसी बारीक माइक्रो-एनिमेशन चलती हैं।
-
-### 2. 🔒 सुरक्षित संचालक डैशबोर्ड (Secure Admin Panel)
-* **गेटेड एक्सेस**: कैटलॉग सुरक्षा के लिए एक सुरुचिपूर्ण लॉग-इन प्रणाली। केवल अधिकृत स्वामी ही आभूषणों की सूची और बैनर बदल सकते हैं।
-* **पूर्वनिर्धारित क्रेडेंशियल (Predefined Credentials)**:
-  * **यूजरनेम (Username)**: `admin`
-  * **पासवर्ड (Password)**: `gurudev@1995` *(प्रयागराज में शोरूम के स्थापना वर्ष १९९५ का प्रतीक)*
-* **संचालक सुविधाएं**:
-  * **सांख्यिकी विवरण**: कुल आभूषणों की संख्या, श्रेणी-वार काउंट (Gold, Silver, Diamond) और ग्राहक पूछताछ की स्थिति।
-  * **आभूषण प्रबंधन (CRUD)**: आभूषणों को जोड़ना, विवरण संपादित करना, फोटो लिंक अपडेट करना और सूची से हटाना।
-  * **घोषणा बैनर सेटिंग्स**: पूरी वेबसाइट के शीर्ष पर प्रदर्शित होने वाले वैश्विक बैनर (उदा. शादी सीजन विशेष छूट) को लाइव अपडेट या निष्क्रिय करना।
-  * **ग्राहक पूछताछ (Inquiries)**: ग्राहकों द्वारा भेजे गए ऑर्डर संदेशों की सूची, जहां से एक क्लिक में सीधे कॉल या व्हाट्सएप रिप्लाई किया जा सकता है।
-
-### 3. 🔍 बुलेटप्रूफ उत्पाद फ़िल्टर (Intelligent Filters)
-* **त्रुटि-रहित फ़िल्टर**: श्रेणी (Category), धातु (Material) और खोज (Search) फ़िल्टर को अत्यधिक मजबूत बनाया गया है।
-* **केस-इंसेंसिटिव**: उपयोगकर्ता छोटे-बड़े किसी भी अक्षर में खोजें, फ़िल्टर सुचारू रूप से काम करेगा।
-* **स्पेस ट्रिमिंग**: आभूषण जोड़ते समय यदि असावधानी से कोई एक्स्ट्रा स्पेस छूट जाए, तो भी फ़िल्टर `.trim().toLowerCase()` की मदद से इसे बिल्कुल सही पहचानता है।
-
-### 4. 📐 पूर्ण रूप से रेस्पॉन्सिव डिज़ाइन (100% Mobile & Laptop Responsive)
-* **नो ओवरलैप (Overlap Fixed)**: वेबसाइट हेडर को `sticky` बनाया गया है जिससे पेज का मुख्य कंटेंट हेडर के पीछे नहीं छिपता।
-* **लैपटॉप स्क्रीन अनुकूलन**: पूरे हीरो स्लाइडर और टेक्स्ट की साइज को १५ इंच और १३ इंच के लैपटॉप स्क्रीन्स के अनुसार व्यवस्थित किया गया है ताकि बिना स्क्रॉल किए पूरी स्क्रीन पर स्लाइडर भव्य रूप से दिखाई दे।
-* **स्मार्ट मोबाइल नेविगेशन**: मोबाइल मेनू का आकार और ड्रॉवर पोजीशन स्वतः हेडर की चौड़ाई और ऊंचाई के अनुकूल हो जाती है।
+This is the official web showcase and inventory management portal for **Jay Gurudev Jewellers** (Civil Lines & Devghat, Prayagraj). It provides clients with an immersive static catalog of gold, silver, and diamond jewelry, alongside a secure, gated Administrator Dashboard for real-time showroom management.
 
 ---
 
-## 🛠️ तकनीकी स्टैक (Technology Stack)
+## ✨ Key Showroom Features
 
-* **कोर फ्रेमवर्क**: [React 19](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
-* **बिल्ड टूल**: [Vite 8](https://vite.dev/) (अत्यधिक तीव्र)
-* **स्टाइलिंग (Styling)**: [Tailwind CSS v4](https://tailwindcss.com/)
-* **आइकॉन्स**: [Lucide React](https://lucide.dev/)
-* **रूटिंग**: [React Router DOM v7](https://reactrouter.com/) (रूटिंग में 404 त्रुटि से बचने के लिए `HashRouter` का प्रयोग)
+### 1. 🎭 Auto-Playing Luxury Hero Slider
+* **Immersive Visuals**: Features an interactive, auto-playing slider loaded with high-fidelity, custom-designed jewelry catalog exhibits:
+  * **Royal Bridal Collection** (Kundan & Uncut Polki)
+  * **22K Gold Heritage** (Antique Temple carvings)
+  * **Modern Solitaire Diamonds** (Elegant daily wear)
+  * **92.5 Sterling Silver** (Traditional elephant kadas and payals)
+* **Smart Interaction**: Automatically pauses auto-play when a user hovers over the slider (`pause-on-hover`) and resumes upon mouse leave. Includes custom glassmorphic arrow controls and responsive indicator dots.
+* **Entrance Micro-Animations**: Utilizes React dynamic key bindings to re-trigger smooth `.fade-in-up` entry animations for titles, badges, and CTA buttons on every slide transition.
+
+### 2. 🔒 Secure Catalog Administrator Dashboard
+* **Predefined Gated Access**: A high-contrast, secure login screen protects the catalog from unauthorized inventory changes:
+  * **Username**: `admin`
+  * **Password**: `gurudev@1995` *(Symbolizes 1995, the prestigious year of establishment in Devghat, Prayagraj)*
+* **Persistent Session Management**: Employs `sessionStorage` to maintain auth state across reload tabs, prompting for credentials only on new browser sessions or when manually clicking the **Logout** button.
+* **Dashboard Utilities**:
+  * **Showroom Statistics**: Real-time stats count of total jewelry listings, metal categories (Gold, Silver, Diamond), and active client orders.
+  * **Product Inventory Management (CRUD)**: Fully functional forms to add new arrivals, edit weight/purity/price details, and delete sold-out items.
+  * **Promo Banner Settings**: Allows the administrator to globally toggle or update the top promo bar text (e.g., *Wedding Season Specials*) across all routes instantly.
+  * **Customer Inquiries**: Collects purchase inquiries submitted by clients, allowing one-click call-backs or automated custom WhatsApp replies.
+
+### 3. 🔍 Bulletproof Case-Insensitive Product Filters
+* **Robust Normalization**: Catalog filters in the Collection page are designed to scale smoothly with thousands of items.
+* **Casing & Whitespace Trimming**: Integrates `.trim().toLowerCase()` checks on categories and materials, preventing subtle spacing bugs or casing discrepancies between database items and user actions.
+
+### 4. 📐 Viewport-Aware Responsive Layout (Mobile & Laptop Perfect)
+* **Sticky Navigation Header**: Replaced `fixed` header styling with standard CSS `sticky` properties, ensuring that primary page elements sit naturally in the document flow without overlap.
+* **Compact Laptop Bounds**: Scaled slider dimensions to responsive bounds (`h-[calc(100vh-140px)] lg:h-[calc(100vh-150px)]`) to ensure the entire hero card and CTA buttons fit on standard 13" and 15" screens without overflow.
+* **Normalized Spacing**: Normalized padding values from `pt-28` to a tidy `pt-10` across all page wrappers to maintain visual symmetry across desktop and mobile screens.
 
 ---
 
-## 💻 स्थानीय विकास गाइड (Local Development Setup)
+## 🛠️ Technology Stack
 
-### आवश्यकताएं:
-* आपके कंप्यूटर में [Node.js](https://nodejs.org/) इंस्टॉल होना चाहिए।
+* **Core Library**: [React 19](https://react.dev/)
+* **Type Safety**: [TypeScript](https://www.typescriptlang.org/)
+* **Bundler & Dev Server**: [Vite 8](https://vite.dev/)
+* **Styling & Theme Framework**: [Tailwind CSS v4](https://tailwindcss.com/)
+* **Icons Pack**: [Lucide React](https://lucide.dev/)
+* **Routing Manager**: [React Router DOM v7](https://reactrouter.com/) (Employs `HashRouter` to prevent custom route 404 reload errors on static CDNs).
 
-### कदम:
+---
 
-1. **निर्भरताएं इंस्टॉल करें**:
+## 💻 Local Development Setup
+
+### Prerequisites
+* [Node.js](https://nodejs.org/) (LTS recommended) installed on your system.
+
+### Steps
+
+1. **Install Dependencies**:
    ```bash
    npm install
    ```
 
-2. **डेवलपमेंट सर्वर शुरू करें**:
+2. **Start Local Dev Server**:
    ```bash
    npm run dev
    ```
-   * आपका स्थानीय सर्वर `http://localhost:5173` पर लाइव हो जाएगा।
+   * Open your browser and navigate to `http://localhost:5173`.
 
-3. **उत्पादन हेतु कंपाइल करें (Build for Production)**:
+3. **Compile Production Bundle**:
    ```bash
    npm run build
    ```
-   * यह आपके प्रोजेक्ट का संकलित कोड `dist/` फोल्डर में जनरेट करेगा।
+   * Compiles the source files into highly optimized production-ready static assets under the `dist/` directory.
 
-4. **कोड क्वालिटी चेक करें (Linter)**:
+4. **Run Static Code Linter**:
    ```bash
    npm run lint
    ```
 
 ---
 
-## 🚀 नेटलिफ़ाई डिप्लॉयमेंट (Netlify Deployment)
+## 🚀 Netlify Deployment Guide
 
-यह वेबसाइट **Netlify Static Hosting** पर डिप्लॉय होने के लिए 100% तैयार है।
+This project is pre-configured and optimized for static hosting platforms like **Netlify**.
 
-### ड्रैग एंड ड्रॉप विधि (सकेंड्स में लाइव):
-1. `npm run build` कमांड चलाएं।
-2. बने हुए **`dist`** फोल्डर को सीधे [netlify.com/drop](https://app.netlify.com/drop) पर ड्रैग और ड्रॉप करें। आपकी वेबसाइट लाइव हो जाएगी!
+### Easiest Deployment (Drag & Drop):
+1. Run `npm run build` locally to generate the `dist/` folder.
+2. Go to [netlify.com/drop](https://app.netlify.com/drop) and drag-and-drop the generated `dist/` folder. Your luxury jewelry showroom will be live in 10 seconds!
+
+### Professional Deployment (GitHub Continuous Integration):
+1. Push this repository to your **GitHub** account.
+2. Create a new site in **Netlify**, select **Import an existing project**, and authorize your GitHub repository.
+3. Configure the build parameters as:
+   * **Build Command**: `npm run build`
+   * **Publish Directory**: `dist`
+4. Click **Deploy**. Netlify will automatically build and publish your updates every time you push to the `main` branch.
